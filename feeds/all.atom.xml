@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"><title>John DeNero</title><link href="http://denero.org/" rel="alternate"></link><link href="http://denero.org/feeds/all.atom.xml" rel="self"></link><id>http://denero.org/</id><updated>2017-01-19T00:00:00-08:00</updated><entry><title>Data 8 in Spring 2017</title><link href="http://denero.org/data-8-in-spring-2017.html" rel="alternate"></link><published>2017-01-19T00:00:00-08:00</published><updated>2017-01-19T00:00:00-08:00</updated><author><name>John DeNero</name></author><id>tag:denero.org,2017-01-19:/data-8-in-spring-2017.html</id><summary type="html">&lt;p&gt;What&amp;#8217;s new in Data 8 for Spring 2017? Perhaps the biggest change is that we have
+expanded the capacity of the course to 672 students. As of the first lecture,
+more than 700 students were enrolled or waitlisted for the course, compared to
+495 in Spring 2016. The primary …&lt;/p&gt;</summary><content type="html">&lt;p&gt;What&amp;#8217;s new in Data 8 for Spring 2017? Perhaps the biggest change is that we have
+expanded the capacity of the course to 672 students. As of the first lecture,
+more than 700 students were enrolled or waitlisted for the course, compared to
+495 in Spring 2016. The primary course staff has grown to 50 (U)GSIs and tutors,
+complemented by 55+ learning assistants. We plan to offer &lt;a href="http://data8.org/sp17/schedule.html"&gt;24 lab sections&lt;/a&gt;,
+&lt;a href="http://data8.org/connector"&gt;11 connector courses&lt;/a&gt;, and 45 small-group tutoring
+sessions each week. The &lt;a href="http://data8.org/sp17/staff.html"&gt;team of students&lt;/a&gt;
+who are providing this support are truly doing amazing&amp;nbsp;work.&lt;/p&gt;
+&lt;p&gt;We plan to keep the &lt;a href="http://data8.org/sp17"&gt;topic schedule&lt;/a&gt; and assignments from
+the &lt;a href="http://data8.org/fa16"&gt;Fall 2016 offering&lt;/a&gt;, but streamline some parts in
+order to add an extra lecture on programming during week 2 and an extra lecture
+on optimization in week 13. Professor Ani Adhikari is continuing to help teach
+the course with me, despite teaching two other courses including a brand new
+&lt;a href="http://data.berkeley.edu/course/probability-data-science"&gt;Probability for Data
+Science&lt;/a&gt; course that
+looks very exciting to&amp;nbsp;me.&lt;/p&gt;
+&lt;p&gt;One major improvement to the course is a &lt;a href="https://github.com/data-8/jupyterhub-k8s"&gt;new deployment of JupyterHub on
+Kubernetes&lt;/a&gt; that has provided by far
+the most stable first week of labs we&amp;#8217;ve ever had, despite the increase in
+course scale. We&amp;#8217;ve also simplified assignment submission; now students can
+submit their work directly to &lt;a href="http://okpy.org"&gt;&lt;span class="caps"&gt;OK&lt;/span&gt;&lt;/a&gt; from within their&amp;nbsp;notebooks.&lt;/p&gt;
+&lt;p&gt;If you&amp;#8217;re not enrolled in the course but interested in the assignments, we now
+provide access to &lt;a href="http://datahub.berkeley.edu"&gt;datahub.berkeley.edu&lt;/a&gt; from any
+@berkeley.edu account. You&amp;#8217;re welcome to click on any of the assignment links
+on the &lt;a href="http://data8.org/sp17"&gt;Data 8 course calendar&lt;/a&gt; to try the assignments
+interactively. If you don&amp;#8217;t have an @berkeley.edu account, you can download
+the &lt;a href="https://github.com/data-8/data8assets/tree/gh-pages/materials/sp17"&gt;course materials from Github&lt;/a&gt;.&lt;/p&gt;</content></entry></feed>
