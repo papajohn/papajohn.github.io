@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  7 JUN 2017 09:45
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  18 OCT 2017 15:56
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -206,21 +206,22 @@ Missing character: There is no ´ in font cmr10!
 Missing character: There is no Ã in font cmr10!
 Missing character: There is no © in font cmr10!
  [3]
-Overfull \hbox (5.04929pt too wide) in paragraph at lines 156--159
+Overfull \hbox (5.04929pt too wide) in paragraph at lines 166--169
 []\OT1/cmr/bx/n/10 Organizing Com-mit-tee\OT1/cmr/m/n/10 : EAAI '13, EAAI '14, 
 NA-CLO/ELCLO '13, NA-CLO/ELCLO '14, EMNLP
  []
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 207.
 [4]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 207.
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 207.
-Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 207.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 207.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 232.
+ [5]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 232.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 232.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 232.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 232.
  ) 
 Here is how much of TeX's memory you used:
- 4292 strings out of 493014
- 64358 string characters out of 6133351
+ 4293 strings out of 493014
+ 64364 string characters out of 6133351
  147919 words of memory out of 5000000
  7864 multiletter control sequences out of 15000+600000
  5200 words of font info for 19 fonts, out of 8000000 for 9000
@@ -231,10 +232,10 @@ Here is how much of TeX's memory you used:
 </usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb>
 </usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></
 usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on denero-cv.pdf (4 pages, 90102 bytes).
+Output written on denero-cv.pdf (5 pages, 90792 bytes).
 PDF statistics:
- 45 PDF objects out of 1000 (max. 8388607)
- 33 compressed objects within 1 object stream
- 5 named destinations out of 1000 (max. 500000)
+ 49 PDF objects out of 1000 (max. 8388607)
+ 36 compressed objects within 1 object stream
+ 6 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
