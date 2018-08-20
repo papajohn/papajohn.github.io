@@ -1,8 +1,8 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  18 OCT 2017 15:56
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  13 JUN 2018 10:46
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**denero-cv
+**denero-cv.tex
 (./denero-cv.tex
 LaTeX2e <2016/03/31>
 Babel <3.9r> and hyphenation patterns for 83 language(s) loaded.
@@ -206,18 +206,18 @@ Missing character: There is no ´ in font cmr10!
 Missing character: There is no Ã in font cmr10!
 Missing character: There is no © in font cmr10!
  [3]
-Overfull \hbox (5.04929pt too wide) in paragraph at lines 166--169
+Overfull \hbox (5.04929pt too wide) in paragraph at lines 168--171
 []\OT1/cmr/bx/n/10 Organizing Com-mit-tee\OT1/cmr/m/n/10 : EAAI '13, EAAI '14, 
 NA-CLO/ELCLO '13, NA-CLO/ELCLO '14, EMNLP
  []
 
 [4]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 232.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 237.
  [5]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 232.
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 232.
-Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 232.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 232.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 237.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 237.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 237.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 237.
  ) 
 Here is how much of TeX's memory you used:
  4293 strings out of 493014
@@ -226,13 +226,13 @@ Here is how much of TeX's memory you used:
  7864 multiletter control sequences out of 15000+600000
  5200 words of font info for 19 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 29i,8n,21p,263b,339s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 29i,8n,21p,267b,339s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb
 ></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb>
 </usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb>
 </usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></
 usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on denero-cv.pdf (5 pages, 90792 bytes).
+Output written on denero-cv.pdf (5 pages, 90828 bytes).
 PDF statistics:
  49 PDF objects out of 1000 (max. 8388607)
  36 compressed objects within 1 object stream

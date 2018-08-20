@@ -3,7 +3,8 @@
 <head>
         <meta charset="utf-8" />
         <title>Publications</title>
-        <link rel="stylesheet" href="../theme/css/main.css" />
+        <link rel="stylesheet" href="http://denero.org/theme/css/main.css" />
+        <link href="http://denero.org/feeds/all.atom.xml" type="application/atom+xml" rel="alternate" title="John DeNero Atom Feed" />
 
         <!--[if IE]>
             <script src="https://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
@@ -14,12 +15,12 @@
 <div class="container">
   <div class="nav-main">
     <div class="wrap">
-      <a href="../">John DeNero </a>
+      <a href="http://denero.org/">John DeNero </a>
         <ul class="nav-site">
             <li><a href="/">About</a></li>
             <li><a href="/posts">Posts</a></li>
-            <li class="active"><a href="../pages/publications.html">Publications</a></li>
-            <li><a href="../pages/teaching.html">Teaching</a></li>
+            <li class="active"><a href="http://denero.org/pages/publications.html">Publications</a></li>
+            <li><a href="http://denero.org/pages/teaching.html">Teaching</a></li>
         </ul>
     </div>
   </div>
@@ -34,9 +35,124 @@
 * IPython notebook
 *
 */
-/* <span class="caps">CSS</span> font colors for translated <span class="caps">ANSI</span> colors. */
+/* <span class="caps">CSS</span> font colors for translated <span class="caps">ANSI</span> escape sequences */
+/* The color values are a mix of
+   http://www.xcolors.net/dl/baskerville-ivorylight and
+   http://www.xcolors.net/dl/euphrasia */
+.ansi-black-fg {
+  color: #<span class="caps">3E424D</span>;
+}
+.ansi-black-bg {
+  background-color: #<span class="caps">3E424D</span>;
+}
+.ansi-black-intense-fg {
+  color: #282C36;
+}
+.ansi-black-intense-bg {
+  background-color: #282C36;
+}
+.ansi-red-fg {
+  color: #<span class="caps">E75C58</span>;
+}
+.ansi-red-bg {
+  background-color: #<span class="caps">E75C58</span>;
+}
+.ansi-red-intense-fg {
+  color: #<span class="caps">B22B31</span>;
+}
+.ansi-red-intense-bg {
+  background-color: #<span class="caps">B22B31</span>;
+}
+.ansi-green-fg {
+  color: #00A250;
+}
+.ansi-green-bg {
+  background-color: #00A250;
+}
+.ansi-green-intense-fg {
+  color: #007427;
+}
+.ansi-green-intense-bg {
+  background-color: #007427;
+}
+.ansi-yellow-fg {
+  color: #<span class="caps">DDB62B</span>;
+}
+.ansi-yellow-bg {
+  background-color: #<span class="caps">DDB62B</span>;
+}
+.ansi-yellow-intense-fg {
+  color: #<span class="caps">B27D12</span>;
+}
+.ansi-yellow-intense-bg {
+  background-color: #<span class="caps">B27D12</span>;
+}
+.ansi-blue-fg {
+  color: #<span class="caps">208FFB</span>;
+}
+.ansi-blue-bg {
+  background-color: #<span class="caps">208FFB</span>;
+}
+.ansi-blue-intense-fg {
+  color: #<span class="caps">0065CA</span>;
+}
+.ansi-blue-intense-bg {
+  background-color: #<span class="caps">0065CA</span>;
+}
+.ansi-magenta-fg {
+  color: #<span class="caps">D160C4</span>;
+}
+.ansi-magenta-bg {
+  background-color: #<span class="caps">D160C4</span>;
+}
+.ansi-magenta-intense-fg {
+  color: #A03196;
+}
+.ansi-magenta-intense-bg {
+  background-color: #A03196;
+}
+.ansi-cyan-fg {
+  color: #<span class="caps">60C6C8</span>;
+}
+.ansi-cyan-bg {
+  background-color: #<span class="caps">60C6C8</span>;
+}
+.ansi-cyan-intense-fg {
+  color: #<span class="caps">258F8F</span>;
+}
+.ansi-cyan-intense-bg {
+  background-color: #<span class="caps">258F8F</span>;
+}
+.ansi-white-fg {
+  color: #<span class="caps">C5C1B4</span>;
+}
+.ansi-white-bg {
+  background-color: #<span class="caps">C5C1B4</span>;
+}
+.ansi-white-intense-fg {
+  color: #<span class="caps">A1A6B2</span>;
+}
+.ansi-white-intense-bg {
+  background-color: #<span class="caps">A1A6B2</span>;
+}
+.ansi-default-inverse-fg {
+  color: #<span class="caps">FFFFFF</span>;
+}
+.ansi-default-inverse-bg {
+  background-color: #000000;
+}
+.ansi-bold {
+  font-weight: bold;
+}
+.ansi-underline {
+  text-decoration: underline;
+}
+/* The following styles are deprecated an will be removed in a future version */
 .ansibold {
   font-weight: bold;
+}
+.ansi-inverse {
+  outline: 0.5px dotted;
 }
 /* use dark versions for foreground, to improve visibility */
 .ansiblack {
@@ -115,12 +231,20 @@ div.cell {
   /* This acts as a spacer between cells, that is outside the border */
   margin: 0px;
   outline: none;
-  border-left-width: 1px;
-  padding-left: 5px;
-  background: linear-gradient(to right, transparent -40px, transparent 1px, transparent 1px, transparent 100%);
+  position: relative;
+  overflow: visible;
+}
+div.cell:before {
+  position: absolute;
+  display: block;
+  top: -1px;
+  left: -1px;
+  width: 5px;
+  height: calc(100% +  2px);
+  content: '';
+  background: transparent;
 }
 div.cell.jupyter-soft-selected {
-  border-left-color: #<span class="caps">90CAF9</span>;
   border-left-color: #<span class="caps">E3F2FD</span>;
   border-left-width: 1px;
   padding-left: 5px;
@@ -133,27 +257,39 @@ div.cell.jupyter-soft-selected {
     border-color: transparent;
   }
 }
-div.cell.selected {
+div.cell.selected,
+div.cell.selected.jupyter-soft-selected {
   border-color: #ababab;
-  border-left-width: 0px;
-  padding-left: 6px;
-  background: linear-gradient(to right, #<span class="caps">42A5F5</span> -40px, #<span class="caps">42A5F5</span> 5px, transparent 5px, transparent 100%);
+}
+div.cell.selected:before,
+div.cell.selected.jupyter-soft-selected:before {
+  position: absolute;
+  display: block;
+  top: -1px;
+  left: -1px;
+  width: 5px;
+  height: calc(100% +  2px);
+  content: '';
+  background: #<span class="caps">42A5F5</span>;
 }
 @media print {
-  div.cell.selected {
+  div.cell.selected,
+  div.cell.selected.jupyter-soft-selected {
     border-color: transparent;
   }
 }
-div.cell.selected.jupyter-soft-selected {
-  border-left-width: 0;
-  padding-left: 6px;
-  background: linear-gradient(to right, #<span class="caps">42A5F5</span> -40px, #<span class="caps">42A5F5</span> 7px, #<span class="caps">E3F2FD</span> 7px, #<span class="caps">E3F2FD</span> 100%);
-}
 .edit_mode div.cell.selected {
   border-color: #<span class="caps">66BB6A</span>;
-  border-left-width: 0px;
-  padding-left: 6px;
-  background: linear-gradient(to right, #<span class="caps">66BB6A</span> -40px, #<span class="caps">66BB6A</span> 5px, transparent 5px, transparent 100%);
+}
+.edit_mode div.cell.selected:before {
+  position: absolute;
+  display: block;
+  top: -1px;
+  left: -1px;
+  width: 5px;
+  height: calc(100% +  2px);
+  content: '';
+  background: #<span class="caps">66BB6A</span>;
 }
 @media print {
   .edit_mode div.cell.selected {
@@ -349,7 +485,9 @@ div.input_area > div.highlight > pre {
 .CodeMirror-lines {
   /* In <span class="caps">CM2</span>, this used to be 0.4em, but in <span class="caps">CM3</span> it went to 4px. We need the em value because */
   /* we have set a different line-height and want this to scale with that. */
-  padding: 0.4em;
+  /* Note that this should set vertical padding only, since CodeMirror assumes
+       that horizontal padding will be set on CodeMirror pre */
+  padding: 0.4em 0;
 }
 .CodeMirror-linenumber {
   padding: 0 8px 0 4px;
@@ -359,11 +497,24 @@ div.input_area > div.highlight > pre {
   border-top-left-radius: 2px;
 }
 .CodeMirror pre {
-  /* In <span class="caps">CM3</span> this went to 4px from 0 in <span class="caps">CM2</span>. We need the 0 value because of how we size */
-  /* .CodeMirror-lines */
-  padding: 0;
+  /* In <span class="caps">CM3</span> this went to 4px from 0 in <span class="caps">CM2</span>. This sets horizontal padding only,
+    use .CodeMirror-lines for vertical */
+  padding: 0 0.4em;
   border: 0;
   border-radius: 0;
+}
+.CodeMirror-cursor {
+  border-left: 1.4px solid black;
+}
+@media screen and (min-width: 2138px) and (max-width: 4319px) {
+  .CodeMirror-cursor {
+    border-left: 2px solid black;
+  }
+}
+@media screen and (min-width: 4320px) {
+  .CodeMirror-cursor {
+    border-left: 4px solid black;
+  }
 }
 /*
 
@@ -611,6 +762,9 @@ div.output_area img.unconfined,
 div.output_area svg.unconfined {
   max-width: none;
 }
+div.output_area .mglyph > img {
+  max-width: none;
+}
 /* This is needed to protect the pre formating from global settings such
    as that of bootstrap */
 .output {
@@ -649,7 +803,7 @@ div.output_area svg.unconfined {
 }
 div.output_area pre {
   margin: 0;
-  padding: 0;
+  padding: 1px 0 1px 0;
   border: 0;
   vertical-align: baseline;
   color: black;
@@ -771,6 +925,10 @@ div.output_unrecognized a:hover {
 .rendered_html h6:first-child {
   margin-top: 1em;
 }
+.rendered_html ul:not(.list-inline),
+.rendered_html ol:not(.list-inline) {
+  padding-left: 2em;
+}
 
 
 
@@ -787,16 +945,24 @@ div.output_unrecognized a:hover {
 }
 
 
+
+
+
 .rendered_html pre,
+
 
 
 
 .rendered_html tr,
 .rendered_html th,
 
-.rendered_html td,
 
-
+.rendered_html tbody tr:nth-child(odd) {
+  background: #f5f5f5;
+}
+.rendered_html tbody tr:hover {
+  background: rgba(66, 165, 245, 0.2);
+}
 .rendered_html * + table {
   margin-top: 1em;
 }
@@ -812,6 +978,11 @@ div.output_unrecognized a:hover {
 
 .rendered_html img.unconfined,
 
+
+.rendered_html * + .alert {
+  margin-top: 1em;
+}
+[dir="rtl"] 
 div.text_cell {
   /* Old browsers */
   display: -webkit-box;
@@ -862,8 +1033,15 @@ h6:hover .anchor-link {
   display: none;
 }
 .text_cell.rendered 
+.text_cell.rendered .rendered_html tr,
+.text_cell.rendered .rendered_html th,
+.text_cell.rendered 
 .text_cell.unrendered .text_cell_render {
   display: none;
+}
+.text_cell .dropzone .input_area {
+  border: 2px dashed #bababa;
+  margin: -1px;
 }
 .cm-header-1,
 .cm-header-2,
@@ -1143,16 +1321,6 @@ h6:hover .anchor-link {
   John DeNero, Dan Gillick, James Zhang and Dan Klein. <i><a href="../content/pubs/naacl06_denero_phrase.pdf">Why Generative Phrase Models Underperform Surface Heuristics</a></i>. Workshop on Statistical Machine Translation at <span class="caps">HLT</span>-<span class="caps">NAACL</span>, 2006. (<a href="../content/pubs/naacl06_denero_phrase_slides.ppt">slides</a>)
 </div>
 </div>
-</div>
-</div>
-</div>
-</div>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-<div class="inner_cell">
-<div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span> 
-</pre></div>
 </div>
 </div>
 </div>
